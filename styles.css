@@ -640,13 +640,25 @@ h2 {
     gap: 2rem;
   }
 
+  .encabezado {
+    padding: 0 3.2rem;
+  }
+
+  .secciones{
+    padding: 2rem 3.2rem 3rem;
+  }
+
+  .seccion-proyecto{
+    padding: 2rem 3.2rem 3rem;
+  }
+
   .grilla-cositas{
     grid-template-columns: repeat(1, 1fr);
   }
 
 
   .titulo-pagina{
-    font-size: 4rem;
+    font-size: 3.2rem;
   }
 
   .infoconimagen{
@@ -670,6 +682,11 @@ h2 {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
     gap: 2rem;
+  }
+
+  footer{
+   padding: 1.5rem 3.2rem;
+
   }
 
   .btn-correo img{
